@@ -1,0 +1,131 @@
+* {
+    font-family: Avenir;
+}
+
+a {
+    color: #a03131;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #d20d0d;
+    cursor: pointer;
+}
+
+.cv-left-panel {
+    float: left;
+}
+
+.cv-image {
+    height: 100px;
+    border: solid #a03131 1px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.cv-title {
+    font-family: Avenir;
+    font-size: 24px;
+    color: #a03131;
+    font-weight: 600;
+    text-align: center;
+}
+
+.cv-mini-title {
+    font-family: Avenir;
+    font-size: 12px;
+    color: #a03131;
+    font-weight: 600;
+}
+
+.cv-sub-mini-title {
+    font-family: Avenir;
+    font-size: 12px;
+    color: #a03131;
+    font-weight: 300;
+}
+
+.cv-splitter-title {
+    font-family: Avenir;
+    font-size: 16px;
+    color: #a03131;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.cv-text {
+    font-family: Avenir;
+    font-size: 12px;
+    color: black;
+    font-weight: 300;
+}
+
+.cv-icons {
+    color: black;
+    font-size: 12px;
+}
+
+.icon-font {
+    margin-top: 3px;
+    font-size: 11px;
+    color: #a03131;
+}
+
+.main-section {
+    margin-top: 20px;
+}
+
+.skills-float {
+    margin-right: 20px;
+}
+
+.float-left {
+    float: left;
+}
+
+.skill-title {
+    width: 70px;
+    text-align: left;
+}
+
+.skills-section {
+    margin-bottom: 20px;
+}
+
+.skills-title {
+    margin-bottom: 10px;
+}
+
+.bottom-section {
+    margin-bottom: 20px;
+}
+
+.cv-main-title {
+    float:left;
+    margin-top: 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+@media (max-width: 991px) {
+    .skills-bottom-buffer {
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 767px) {
+    .cv-intro {
+        margin-top: 20px;
+    }
+    .cv-left-panel {
+        text-align: center;
+    }
+    .cv-my-info {
+        margin-bottom: 10px;
+    }
+    .skills-bottom-buffer {
+        margin-bottom: 20px;
+    }
+}
